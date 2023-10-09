@@ -8,6 +8,7 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 ## Colors
+color: hsl(0, 0%, 100%)
 
 - White: hsl(0, 0%, 100%)
 - Light gray: hsl(212, 45%, 89%)
@@ -31,13 +32,23 @@ body {
   font-family: "Outfit";
   background-color: hsl(212, 45%, 89%);
 }
+h1 {
+  font-size: 22px;
+  margin: 20px;
+}
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
-
 .element {
   justify-content: center;
   text-align: center;
@@ -45,17 +56,6 @@ body {
   padding: 15px;
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
-  margin: auto;
-}
-h1 {
-  font-size: 22px;
-  margin: 20px;
-}
-.descriptiontxt {
-  font-size: 15px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 30px;
 }
 .imgqr {
   border-radius: 10px;
